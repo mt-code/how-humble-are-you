@@ -12,6 +12,10 @@
             <div class="humble-reveal__content">
                 <p class="humble">Well, that's not very humble...</p>
             </div>
+
+            <a href="https://mtcode.co.uk/">
+                <img class="logo" src="assets/img/mtcode-logo.svg" alt="MTCode Logo">
+            </a>
         </div>
 
         <div class="humble-question">

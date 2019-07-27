@@ -125,6 +125,15 @@ html, body {
   height: 100vh;
   background-color: #FFD200;
   z-index: 1; }
+  .humble-reveal a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px; }
+    .humble-reveal a img {
+      height: 30px;
+      opacity: 0;
+      transition: 1s opacity ease-in-out; }
 
 .humble-reveal__content {
   position: absolute;

@@ -2,7 +2,7 @@ function reveal(isHumble) {
     var revealElement = document.querySelector(".humble-reveal");
     var messageElement = document.querySelector('.humble-reveal__content p');
     messageElement.innerHTML = isHumble
-        ? 'Oh, how humble of you...'
+        ? 'Oh, how humble...'
         : "That wasn't very humble...";
 
     var bounce = new Bounce();
@@ -24,4 +24,8 @@ function reveal(isHumble) {
         revealElement.style.animation = 'none';
         revealElement.style.top = 0;
     }, 2000);
+
+    setTimeout(function() {
+        document.querySelector('img.logo').style.opacity = 1;
+    }, 1250);
 }
