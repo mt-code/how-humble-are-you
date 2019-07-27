@@ -1,4 +1,5 @@
 function reveal(isHumble) {
+    var revealElement = document.querySelector(".humble-reveal");
     var messageElement = document.querySelector('.humble-reveal__content p');
     messageElement.innerHTML = isHumble
         ? 'Oh, how humble of you...'
@@ -17,5 +18,10 @@ function reveal(isHumble) {
         to: 0
     });
 
-    bounce.applyTo(document.querySelectorAll(".humble-reveal"));
+    bounce.applyTo(revealElement);
+
+    setTimeout(function() {
+        revealElement.style.animation = 'none';
+        revealElement.style.top = 0;
+    }, 2000);
 }
