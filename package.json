@@ -1,0 +1,22 @@
+{
+  "name": "how-humble-are-you",
+  "version": "1.0.0",
+  "description": "How humble are you? Answer this simple quiz to find out.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mt-code/how-humble-are-you.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mt-code/how-humble-are-you/issues"
+  },
+  "homepage": "https://github.com/mt-code/how-humble-are-you#readme",
+  "dependencies": {
+    "bounce.js": "^0.8.2"
+  }
+}

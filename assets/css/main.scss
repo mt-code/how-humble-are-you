@@ -1,6 +1,14 @@
-@import 'reset';
+$white: #fff;
+$black: #000;
+$yellow: #FFD200;
+$gunmetal: rgb(44, 54, 63);
 
-body {
-  width: 100%;
-  height: 100%;
-}
+// Partials
+@import 'partials/reset';
+@import 'partials/fonts';
+@import 'partials/global';
+
+// Components
+@import 'components/humble-question';
+@import 'components/humble-reveal';
+
